@@ -4,7 +4,8 @@ from homeassistant.components.lock import LockEntity
 from homeassistant.core import HomeAssistant
 from homeassistant.config_entries import ConfigEntry
 
-from .const import COORDINATOR, DOMAIN, Device
+from .const import COORDINATOR, DOMAIN, 
+Device
 from .entity import EufySecurityEntity
 from .coordinator import EufySecurityDataUpdateCoordinator
 
